@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+img{
+  aspect-ratio: auto 640 / 360;
+}
+
+.header{
+    
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+}
+
+
+
+.nav{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-top: 1.3%;
+margin-right: 2%;
+margin-left: 2%;
+margin-bottom: 0;
+
+
+}
+
+.nav__div--logo{
+  min-width: 6%;
+  max-width: 7%;
+  height: 5%;
+  padding-top: 1%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+ 
+}
+
+
+.nav__img--logo{
+
+  width: 100%;
+  
+}
+
+.nav__ul{
+
+  padding-top: 1%;
+  padding-right: 5%;
+  padding-bottom: 1%;
+  max-width: 4%;
+  height: 2.5%;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  
+  
+
+
+}
+
+.nav__li{
+    display: inline;
+    padding-right: 1em;
+    padding-left: 1em;
+    
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav__li--1{
+  opacity: .4;
+}
+
+
+.nav__div--rayitas{
+  width: 2%;
+  height: 2%;
+  justify-content: flex-start;
+  align-items: center;
+ 
+}
+
+
+.nav__img--rayitas{
+    width: 100%;
+   
+    justify-content: flex-end;
+}
+
+.main{
+ display: flex;
+ flex-direction: column;
+ flex-grow: 1;
+ gap: 2%;
+ 
+
+}
+
+.galeria{
+  
+    padding: 1%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+   
+    gap: 10px;
+    
+}
+
+.galeria-img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.galeria-img--4{
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+.galeria-img--2f{
+  grid-row: span 2;
+}
+
+.galeria-img--2c{
+ grid-column: span 2;
+}
+
+
+.main__h2{
+    padding-top: 5%;
+ justify-content: center;
+ text-align: center;
+}
+
+.main__div--logo{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5%;
+}
+
+
+.main__p{
+    
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 13px;
+}
+
+.footer{
+    padding: 2%;
+    width: 100%;
+    height: 20%;
+
+  display: flex;
+  
+justify-content: center;
+    align-items: center;
+  
+}
+
+.footer__p{
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+  font-style: normal;
+}
